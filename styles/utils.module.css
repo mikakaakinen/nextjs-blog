@@ -18,6 +18,7 @@
 
 .headingLg {
   font-size: 1.5rem;
+  text-decoration: underline;
   line-height: 1.4;
   margin: 1rem 0 0rem;
 }
