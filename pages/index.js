@@ -21,11 +21,23 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        <ul>
+          <li>I am a self-taught front- and backend developer.</li>
+          <li>
+            On the frontend I mainly work with React and vanilla JavaScript.
+          </li>
+          <li>On the backend I have experience with Node.js.</li>
+          <li>MongoDB and Firebase are the databases I have worked with.</li>
+          <li>I have also some experience with GraphQL and Redux Toolkit.</li>
+          <li>
+            Recently I have tentatively studied Next.js and after that I aim to
+            have a look at Hasura.
+          </li>
+          <li>
+            On the photo I pose with my teacher colleaque Olavi (me on the
+            right).
+          </li>
+        </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
